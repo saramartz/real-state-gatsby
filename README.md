@@ -11,16 +11,30 @@ Queen Style is a estate agency that helps people live in more thoughtful and bea
 
 ## Get Started :rocket:
 
-Navigate into your new site’s directory and start it up.
+1. Navigate into your new site’s directory and run the development server
+
+```shell
+mongo
+```
+
+```shell
+cd strapi-cms/
+npm run develop
+```
+
+Open [http://localhost:1337/admin](http://localhost:1337/admin) with your browser.
+
+Note: Use email ``correo@correo.com`` and password ``Admin123``
+
+2. Navigate into gatsby directory and start it up.
 
 ```shell
 cd real-state-gatsby/
+npm i
 gatsby develop
 ```
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the result.
-
-Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. 
 
 ## Technologies 🛠️
 
